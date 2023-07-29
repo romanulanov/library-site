@@ -60,7 +60,6 @@ def parse_book_page(response):
         "book_path": quote(f"/books{os.sep}{response.url.split('/b')[1][:-1]}. {sanitize_filename(title.text.partition(' - ')[0].strip())}.txt"),
         "comments": comments,
         "genres": genres,
-        "image_path":quote(f"/images{os.sep}{response.url.split('/b')[1][:-1]}.jpg"),
         }
     return book
 
