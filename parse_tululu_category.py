@@ -150,10 +150,10 @@ def main():
                     folder_book = f'{args.dest_folder}/media/books/'.strip()
                     folder_image = f'{args.dest_folder}/media/images'.strip()
                     folder_json = f'{args.dest_folder}/'.strip()
-                if args.skip_imgs:
-                    download_txt('https://tululu.org/txt.php',  params, filename, folder_book)
-                if args.skip_txt:
-                    download_image(book['img_url'], f'{index}.jpg', folder_image)
+                #if args.skip_imgs:
+                download_txt('https://tululu.org/txt.php',  params, filename, folder_book)
+                #if args.skip_txt:
+                download_image(book['img_url'], f'{index}.jpg', folder_image)
                 break
 
             except requests.exceptions.HTTPError:
