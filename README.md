@@ -1,4 +1,4 @@
-# Парсер книг с сайта tululu.org
+# Оффлайн библиотека книг с сайта tululu.org
 
 ![image](https://drive.google.com/uc?export=view&id=1kLJZUeF5MK_3D2mKutUk7XKs47WqtNLv)
 [Ссылка](https://romanulanov.github.io/pages/index1.html) на сайт.
